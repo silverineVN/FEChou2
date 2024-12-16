@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout */
+.app {
+  display: grid;
+  grid-template-columns: 200px auto 250px;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin: 0 0 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Right Panel */
+.right-panel {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-panel h3 {
+  margin-bottom: 50px;
+}
+
+.right-panel button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-buttons button {
+  width: 100%;
+  margin: 10px 0;
+
+}
+.sidebar ul li.active {
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Sidebar Navigation - Styling Buttons */
+.menu-button {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: #333;
+}
+
+.menu-button.active {
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Footer Links */
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ccc;
+}
+
+
+
